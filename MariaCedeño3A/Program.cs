@@ -222,44 +222,6 @@ namespace MariaCedeño3A
             }
             Console.WriteLine("*****************************************");
 
-            //los 3 clientes con mas monto en ventas
-            /*var montoMayor = from lf in ListaFactura
-                             join lc in ListaCliente on lf.IdCliente equals lc.Id
-
-                             select new
-                             {
-                                 nombrecliente = lc.Nombre,
-                                 valormayor = lf.Total
-                             };
-
-            Console.WriteLine("Clientes con monto de ventas mayor :");
-            foreach (var item in montoMayor)
-            {
-                Console.WriteLine("{0}, {1}", item.nombrecliente, item.valormayor);
-            }
-            
-
-            Console.WriteLine("*****************************************");
-            //los 3 clientes con menos monto en ventas
-            var montoMayor = from lf in ListaFactura
-                             join lc in ListaCliente on lf.IdCliente equals lc.Id
-
-                             select new
-                             {
-                                 nombrecliente = lc.Nombre,
-                                 valormayor = lf.Total
-                             };
-
-            Console.WriteLine("Clientes con monto de ventas mayor :");
-            foreach (var item in montoMayor)
-            {
-                Console.WriteLine("{0}, {1}", item.nombrecliente, item.valormayor);
-            }
-            
-
-            Console.WriteLine("*****************************************");
-            */
-
 
             //el cliente con mas ventas realizadas
 
@@ -282,10 +244,6 @@ namespace MariaCedeño3A
             }
             Console.WriteLine("");
             Console.WriteLine("*****************************************");
-
-
-            //el cliente y la cantidad de ventas realizadas
-
 
 
             //las ventas realizadas hace menos de 1 año
